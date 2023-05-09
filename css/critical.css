@@ -43,7 +43,7 @@
        object-fit: cover;
   }
   #hero .hero-content {
-    width: 97%;
+    width: 95%;
     margin: auto;
     position: relative;
     z-index: 10;
@@ -206,6 +206,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     position: relative;
+    width: 97%;
   }
   #hero p{
     font-size: 20px;
