@@ -174,6 +174,7 @@
     z-index: 10000;
     height: auto;
   }
+  
   #navigation .background-color-div {
     position: absolute;
     top: 0;
@@ -336,6 +337,7 @@
     -webkit-transition-delay: .5s;
             transition-delay: .5s;
   }
+ 
   #navigation #navbar-menu ul li a {
     text-decoration: none;
     text-transform: uppercase;
@@ -346,19 +348,7 @@
     position: relative;
     font-weight: bold;
   }
-  #navigation #navbar-menu ul li a.active:before {
-    content: '';
-    position: absolute;
-    display: block;
-    height: 0.42105263em;
-    background: var(--primary);
-    opacity: 1;
-    bottom: 0.26315789em;
-    border-radius: 0.21052632em;
-    left: -0.31578947em;
-    right: -0.31578947em;
-    z-index: -1;
-  }
+  
   #navigation #navbar-menu.open {
     height: 19.125em;
     padding-top: 1.25em;
@@ -376,6 +366,7 @@
     -webkit-box-shadow: inset 0 0 0.375em rgba(0, 0, 0, 0.3);
     background-color: #fff;
   }
+  
   ::-webkit-scrollbar-track-piece {
     background-color: #f0f0f0;
   }
@@ -474,17 +465,28 @@
     margin-left: 1.875em;
     padding-top: 0.1875em;
   }
+  
   #navigation #navbar-menu ul li a {
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1875em;
+    font-size: .8em;
     text-transform: uppercase;
     position: relative;
     z-index: 1;
-    color: #fff;
     -webkit-transition: color .3s;
     transition: color .3s;
   }
+  #navigation #navbar-menu ul li a:not(.sign-in){
+    color: #ffffff36;
+  }
+  
+  #navigation .sign-in{
+    border: #fff 1px solid;
+    padding: 5px 15px;  
+    border-radius: 15px;
+    color: #fff;
+    }
+ 
   #navigation #navbar-menu ul li a:before {
     content: '';
     position: absolute;
@@ -522,6 +524,7 @@
   #navigation .hamburger-menu {
     display: none;
   }
+ 
 }
 /* Dark Mode Mobile */
 @media only screen and (max-width: 1023px) {
@@ -556,6 +559,7 @@
   body.dark-mode #navigation #navbar-menu ul li a.active {
     color: var(--primary);
   }
+  
 }
 /* Dark Mode Desktop */
 @media only screen and (min-width: 1024px) {

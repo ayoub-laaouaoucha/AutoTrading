@@ -43,8 +43,7 @@
        object-fit: cover;
   }
   #hero .hero-content {
-    width: 96%;
-    max-width: 71.5em;
+    width: 97%;
     margin: auto;
     position: relative;
     z-index: 10;
@@ -58,10 +57,9 @@
   #hero .heroText {
     width: 100%;
     margin: auto;
-    max-width: 56.875em;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column-reverse;
   }
   #hero h1 {
@@ -75,6 +73,7 @@
     max-width: 14.125em;
     margin-bottom: 0.4375em;
     position: relative;
+    text-align: left;
   }
   
   #hero h1:before {
@@ -166,14 +165,13 @@
     flex-direction: column;
   }
   .content{
-      width: 96%;
-    max-width: 71.5em;
     margin: auto;
     position: relative;
     z-index: 10;
     text-align: center;
     display: flex;
     flex-direction: column;
+    width: 97%;
     }
     .picside{
       width: 90%;
@@ -215,8 +213,8 @@
   }
   .picside img{
     top: 0;
-    width: 850px;
-    transform: translateX(-250px) translateY(-50px);
+    width: 82vw;
+   
     
   }
   .Headerbuttom{
@@ -278,7 +276,10 @@
 
   /* global 94%+ browsers support */
   background:linear-gradient(1deg, rgba(29, 18, 96, 1) 82%, rgba(10, 7, 30, 1) 100%, rgba(38, 31, 104, 1) 100%);
-
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
 
   }
   .top-services{
@@ -300,6 +301,7 @@
     height: 100px;
     top: 40px;
   }
+  
   
   .serviceH h2{
     color: #fff;
@@ -325,26 +327,31 @@
     flex-direction: column-reverse;
     height: 60%;
     text-align: left;
-    padding: 40px;
+    justify-content: center;
     gap: 60px;
   }
-  .cardT h2{
+  
+  .cardT .card-header{
     color: #fff;
     font-family: 'cairo-l';
-    font-weight: 100;
+  
     font-size: 50px;
   }
-  .cardT h3{
+  .cardT span {
     color: #fff;
     font-family: 'cairo-b';
-    font-size: 30px;
     padding-bottom: 30px;
   }
   .cardT p{
    color: #fff;
+   font-size: 1.2em;
+   letter-spacing: 1.2px;
    font-weight: 100;
    font-family: 'cairo-l';
    padding-bottom: 30px;
+  }
+  .cardT .button-solid{
+    margin-top: 50px;
   }
 
 }
@@ -361,25 +368,52 @@
  }
  .card{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  padding: 40px;
  }
  .cardT p{
   padding-right: 30px;
  }
+ .cardP{
+  width: 50%;
+ }
+ .cardP img{
+  height: 90%;
+  width: 100%;
+ }
  
 }
 /* Small Desktop */
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1024px) {
   .serviceH{
-    width: 68%;
+    width: 50%;
    }
    .serviceH p{
     font-size: 29px;
    }
-   .serviceD{
-    width: 100%;
-   }
+   
    .serviceD p{
     font-size: 24px;
    }
+   .card{
+    flex-direction: row;
+   }
+   .cardT{
+    width: 50%;
+  }
 }
+
+
+@media only screen and (min-width: 1060px){
+  .serviceH{
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 1440px){
+  .serviceH{
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1024px){}
