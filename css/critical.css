@@ -89,6 +89,7 @@
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
+  
   #hero p {
     line-height: 1.55em;
     margin: auto;
@@ -100,6 +101,8 @@
     font-size: 18px;
     padding-top: 1em;
     text-align: left;
+    font-family: 'cairo-r';
+    
   }
   #hero .button-solid {
     margin: auto;
@@ -112,8 +115,9 @@
   .heroText .headerText .headerTitle{
     font-family: 'cairo-b';
   }
-  .p1{
+  #hero .p1{
     font-family: 'cairo-b';
+    font-size: 20px;
   }
   .vision{
     position: relative;
@@ -206,12 +210,16 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     position: relative;
-    width: 97%;
+    width: 90%;
   }
   #hero p{
     font-size: 20px;
     padding-top: 0;
-  
+    
+  }
+  #hero .p1{
+    font-family: 'cairo-b';
+    font-size: 26px;
   }
   .picside{
     width: 50%; 
@@ -340,8 +348,12 @@
     text-align: left;
     justify-content: center;
     gap: 60px;
+    position: relative;
+    padding-left: 15px;
   }
-  
+  .card .line{
+    transform: translateY(-150px);
+  }
   .cardT .card-header{
     color: #fff;
     font-family: 'cairo-l';
