@@ -684,7 +684,6 @@
 @media only screen and (min-width: 0em) {
   #footer {
     background: #1C1C1C;
-    padding: 5.25em 0 1.25em;
     font-size: min(4vw, 1.2em);
   }
   #footer .left-section {
@@ -813,8 +812,6 @@
     width: 96%;
     margin: auto;
     text-align: center;
-    margin-top: 6.25em;
-    line-height: 2.25em;
     font-size: 1em;
   }
   #footer .credit a {
@@ -854,9 +851,13 @@
     padding: 0;
   }
   #footer .left-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
     width: 25.5625em;
     margin: 0;
     text-align: left;
+    padding-top: 20px;
   }
   #footer .left-section .logo {
     text-align: left;
