@@ -690,6 +690,7 @@
     margin: auto;
     margin-bottom: 3.125em;
     text-align: center;
+    flex-direction: row;
   }
   #footer .left-section .logo {
     display: inline-block;
@@ -867,6 +868,8 @@
   #footer .left-section p {
     text-align: left;
     margin-left: 0;
+    font-size: 24px;
+    padding: 0 50px;
   }
   #footer .right-section {
     margin: 0;
