@@ -413,7 +413,8 @@
 }
 @media only screen and (min-width: 1440px){
   .serviceH{
-    width: 50%;
+    width: 62%;
+    margin-left: 24px;
   }
 }
 @media only screen and (min-width: 1024px){}
