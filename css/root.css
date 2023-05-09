@@ -277,6 +277,7 @@
             transform: translate(-50%, -50%) rotate(225deg);
     left: 50%;
     top: 50%;
+    background-color: #000;
   }
   #navigation .hamburger-menu.clicked span:after {
     width: 100%;
@@ -284,6 +285,7 @@
             transform: translate(-50%, -50%) rotate(-225deg);
     left: 50%;
     top: 50%;
+    background-color: #000;
   }
   #navigation #navbar-menu {
     position: fixed;
@@ -351,12 +353,14 @@
     display: inline-block;
     position: relative;
     font-weight: bold;
+    font-family: 'cairo-r';
   }
   
   #navigation #navbar-menu.open {
     height: 19.125em;
     padding-top: 1.25em;
     z-index: -100;
+    top: 0;
   }
   #navigation #navbar-menu.open ul li {
     opacity: 1;
