@@ -76,19 +76,7 @@
     text-align: left;
   }
   
-  #hero h1:before {
-    content: '';
-    position: absolute;
-    display: block;
-    height: 0.0625em;
-    width: 1.515625em;
-    background: var(--primary);
-    opacity: 1;
-    bottom: -0.25em;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
+  
   
   #hero p {
     line-height: 1.55em;
@@ -187,7 +175,8 @@
     transform: translateX(-186px);
     }
     .allcontact .line{
-      height: 30%;
+      height: 75%;
+      top: 0;
     }
   
 }
