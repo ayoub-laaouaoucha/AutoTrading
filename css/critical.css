@@ -135,7 +135,6 @@
   .vision h2{
     color: #fff;
     font-weight: 100;
-    padding-left: 20px;
     font-family: 'cairo-l';
     font-weight: 100;
   }
@@ -143,7 +142,6 @@
     color: #fff;
     font-family: 'cairo-sb';
     font-size: 20px;
-    padding-left: 20px;
   }
   .Vis-Des{
     font-family: 'cairo-l'
@@ -238,7 +236,7 @@
     padding-left: 15px;
   }
   .vision h3{
-    font-size: 20px;
+    font-size: 29px;
   }
   
 }
