@@ -6,7 +6,7 @@
   #hero {
     font-size: inherit;
     position: relative;
-    margin-top: 63px;
+    
     padding-top: 50px;
     z-index: 1;
     /* ff 3.6+ */
@@ -172,7 +172,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 97%;
+  
     }
     .picside{
       width: 90%;
@@ -181,6 +181,9 @@
     height: 100%;
     width: 613px;
     transform: translateX(-186px);
+    }
+    .allcontact .line{
+      height: 30%;
     }
   
 }
@@ -247,6 +250,9 @@
   #hero p{
     font-size: 24px;
   }
+  .serviceD p{
+    font-size: 24px;
+  }
   .vision{
     padding-left: 15px;
   }
@@ -285,7 +291,6 @@
   }
   .top-services{
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     text-align: center;
     padding: 50px 0;
@@ -313,17 +318,19 @@
     font-weight: 100;
   }
   .serviceD{
-    width: 100%;
+  
     text-align: left;
   }
   .serviceH p{
     color: #fff;
     font-weight: 900;
+    font-family: 'cairo-b';
   }
   
   .serviceD p{
     color: #fff;
     max-width: 34.27777778em;
+    font-family: 'cairo-r';
   }
   .card{
     display: flex;
@@ -362,13 +369,11 @@
 @media only screen and (min-width: 48em) {
  .top-services{
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
  }
- .serviceH{
-  width: 30%;
- }
+ 
  .serviceD{
-  width: 58%;
+  
  }
  .card{
   display: flex;
@@ -387,6 +392,9 @@
   height: 90%;
   width: 100%;
  }
+ .serviceD p{
+  font-size: 20px;
+ }
  
 }
 /* Small Desktop */
@@ -398,9 +406,6 @@
     font-size: 29px;
    }
    
-   .serviceD p{
-    font-size: 24px;
-   }
    .card{
     flex-direction: row;
    }
@@ -408,14 +413,21 @@
     width: 50%;
   }
 }
-@media only screen and (min-width: 1400px){
-  .top-services{
-    gap: 5vw;
+/* @media only screen and (min-width: 1024px){
+  .serviceD p{
+    font-size: 20px;
   }
+  .serviceH{
+    width: 43%;
+  }
+}
+/* @media only screen and (min-width: 1300px){
+  
  
-}
-@media only screen and (min-width: 1800px){
-  .top-services{
-    gap: 12vw;
+} */
+@media only screen and (min-width: 1300px){
+  .serviceD p{
+    font-size: 24px;
   }
-}
+
+} 
