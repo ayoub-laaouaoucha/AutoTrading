@@ -113,6 +113,10 @@
     text-align: left;
   
   }
+  .vision-content{
+    padding-left: 15px;
+  }
+  
   .line{
     display: inline-block;
     background-color: #fff;
@@ -144,7 +148,8 @@
     font-size: 20px;
   }
   .Vis-Des{
-    font-family: 'cairo-l'
+    font-family: 'cairo-l';
+    padding-left: 15px;
   }
   .Headerbuttom{
     display: flex;
@@ -172,10 +177,7 @@
     width: 613px;
     transform: translateX(-186px);
     }
-    .allcontact .line{
-      height: 75%;
-      top: 0;
-    }
+    
   
 }
 /* Tablet */
@@ -235,8 +237,15 @@
     text-align: left;
     padding-left: 15px;
   }
+  .vision-content{
+    padding-left: 0px;
+  }
   .vision h3{
-    font-size: 29px;
+    font-size: 18px;
+  }
+  .allcontact .line{
+    height: 75%;
+    top: 0;
   }
   
 }
@@ -317,7 +326,7 @@
     font-weight: 100;
   }
   .serviceD{
-  
+    padding-left: 15px;
     text-align: left;
   }
   .serviceH p{
