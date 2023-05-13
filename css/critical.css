@@ -177,7 +177,12 @@
     width: 613px;
     transform: translateX(-186px);
     }
-    
+
+    .allcontact .line{
+      height: 30%;
+      bottom: 0;
+      transform: translateY(-103px);
+  }
   
 }
 /* Tablet */
@@ -245,9 +250,14 @@
   }
   .allcontact .line{
     height: 75%;
-    top: 0;
+    bottom: 0;
   }
   
+}
+@media only screen and (min-width: 1024px){
+  .vision h3{
+    font-size: 24px;
+  }
 }
 /* Small Desktop */
 @media only screen and (min-width: 1300px) {
@@ -264,9 +274,7 @@
   .vision{
     padding-left: 15px;
   }
-  .vision h3{
-    font-size: 29px;
-  }
+  
   
 }
 /*-- -------------------------- -->
@@ -415,7 +423,7 @@
     width: 50%;
    }
    .serviceH p{
-    font-size: 29px;
+    font-size: 24px;
    }
    
    .card{
