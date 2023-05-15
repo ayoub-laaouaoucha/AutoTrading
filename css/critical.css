@@ -157,7 +157,7 @@
     gap: 30px;
     margin-top: 50px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
   }
   .content{
@@ -189,7 +189,7 @@
 /* Tablet */
 @media only screen and (min-width: 48em) {
   #hero {
-    padding: 12.5em 0 0.75em 0;
+    padding: 12em 0 0.7em 0;
     z-index: 1;
     overflow: hidden;
     margin-top: 0;
@@ -209,7 +209,7 @@
     width: 90%;
   }
   #hero p{
-    font-size: 1.3em;
+    font-size: 1.1em;
     padding-top: 0;
     
   }
@@ -399,17 +399,19 @@ padding-top: 50px;
  .cardT p{
   padding-right: 30px;
  }
- .cardP:not(.why .cardP){
+ .cardP{
   width: 70%;
  }
  .cardP img{
-  height: 70%;
+  height: 100%;
   width: 100%;
-  max-height: 1500px;
+  max-height: 800px;
  }
- 
+ .card{
+  gap: 10px;
+ }
  .serviceD p{
-  font-size: 1.3em;
+  font-size: 1.1em;
  }
  
  
@@ -453,7 +455,7 @@ padding-top: 50px;
   font-size: min(12vw, 90pt);
 }
 #hero p, .serviceD p{
-  font-size: 1.6em;
+  font-size: 1.7em;
 }
 #hero .p1{
 font-size: 1.5em;
@@ -469,7 +471,7 @@ font-size: 2em;
 }
 
 .cardT .card-header{
-  font-size: 70pt;
+  font-size: 3em;
 }
 .cardP{
    width:50%;
@@ -497,6 +499,9 @@ input:nth-child(3){
 }
 input::placeholder, textarea::placeholder{
   font-size: 24pt;
+}
+.why{
+  padding: 50px 0;
 }
 
 }

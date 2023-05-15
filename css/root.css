@@ -490,6 +490,8 @@
   }
   #navigation #navbar-menu ul li a:not(.sign-in){
     color: #ffffff36;
+    font-family: 'cairo-r';
+    letter-spacing: 2px;
   }
   
   #navigation .sign-in{
