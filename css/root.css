@@ -436,7 +436,7 @@
     transition: height .3s;
   }
   #navigation .container {
-    max-width: 75em;
+    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
