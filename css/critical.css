@@ -446,7 +446,9 @@ padding-top: 50px;
 /*------------------------------- */
 @media only screen and (min-width: 1920px){
 .picside img{
-  width: 70vw;
+  width: 100vw;
+    transform: translate(-729px, -109px);
+}
 }
 .headerText {
   transform: translateX(108px);
