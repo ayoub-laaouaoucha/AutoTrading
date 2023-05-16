@@ -135,13 +135,13 @@
     height: 150px;
     position: absolute;
     left: 0;
-    top: 0;
+    top: 50px;
     transform: translate(1px,-138px);
   }
   .vision h2{
     color: #fff;
     font-family: 'cairo-l';
-
+    padding-bottom: 1em;
     font-size: 2em;
     font-weight: 100;
   }
@@ -178,7 +178,7 @@
     .picside img{
     height: 100%;
     width: 823px;
-    transform: translateX(-281px);
+    transform: translateX(-300px);
     }
 
     .allcontact .line{
@@ -234,7 +234,7 @@
     display: flex;
     flex-direction: row-reverse;
     margin-top: 50px;
-    align-items: flex-emd;
+    align-items: flex-end;
   }
   #hero .heroText{
     flex-direction: row;
@@ -262,8 +262,8 @@
     font-size: 1.5em;
   }
   .picside img{
-    width: 95vw;
-    transform: translateX(-291px);
+    width: 100vw;
+    transform: translateX(-300px);
   }
   
 }
@@ -349,6 +349,7 @@ padding-top: 50px;
     font-family: 'cairo-l';
     font-weight: 100;
     font-size: 2em;
+    padding-bottom: 1em;
   }
   .serviceD{
     padding-right: 15px;
