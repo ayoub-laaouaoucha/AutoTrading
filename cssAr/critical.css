@@ -378,6 +378,9 @@ padding-top: 50px;
   .card .line{
     transform: translateY(-150px);
   }
+  .cardT{
+    text-align: right;
+  }
   .cardT .card-header{
     color: #fff;
     font-family: 'cairo-l';
@@ -402,6 +405,7 @@ padding-top: 50px;
   }
   .cardT .button-solid{
     margin-top: 10px;
+    margin-right: 15px;
   }
 
 }

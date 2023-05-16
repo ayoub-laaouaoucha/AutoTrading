@@ -122,6 +122,7 @@
     -webkit-transition-delay: .1s;
             transition-delay: .1s;
             margin-bottom: 30px;
+            margin-left: 15px;
   }
   .button-solid:hover {
     color: #fff;
