@@ -405,11 +405,7 @@
   body.scroll #dark-mode-toggle svg path {
     fill: #000;
   }
-  body.dark-mode #navigation .background-color-div {
-    height: 100%;
-    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  }
+  
   #navigation {
     width: 100%;
     height: 10em;
@@ -557,7 +553,7 @@
     background-color: #fff;
   }
   body.dark-mode #navigation .logo .light {
-    display: block;
+    display: none;
   }
   body.dark-mode #navigation .logo .dark {
     display: none !important;
