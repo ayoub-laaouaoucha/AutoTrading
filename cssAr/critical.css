@@ -73,7 +73,8 @@
     max-width: 14.125em;
     margin-bottom: 0.4375em;
     position: relative;
-    text-align: left;
+    text-align: right;
+    padding-right: 15px;
   }
   
   
@@ -88,9 +89,9 @@
     opacity: 1;
     font-size: 18px;
     padding-top: 1em;
-    text-align: left;
+    text-align: right;
     font-family: 'cairo-r';
-    
+    padding-right: 15px;
   }
   #hero .button-solid {
     margin: auto;
@@ -114,7 +115,8 @@
   
   }
   .vision-content{
-    padding-left: 15px;
+    padding-right: 15px;
+    text-align: right;
   }
   
   .line{
@@ -124,7 +126,7 @@
     height: 50%;
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
   }
   .small-line{
     display: inline-block;
@@ -157,7 +159,7 @@
     gap: 30px;
     margin-top: 50px;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-direction: column;
   }
   .content{
@@ -227,9 +229,9 @@
   }
   .Headerbuttom{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin-top: 50px;
-    align-items: flex-start;
+    align-items: flex-emd;
   }
   #hero .heroText{
     flex-direction: row;
@@ -237,8 +239,8 @@
   .vision{
     position: relative;
     width: 50%;
-    text-align: left;
-    padding-left: 15px;
+    text-align: right;
+
   }
   .vision-content{
     padding-left: 0px;
@@ -247,7 +249,7 @@
     font-size: 18px;
   }
   .allcontact .line{
-    height: 75%;
+    height: 66%;
     bottom: 0;
   }
   
@@ -319,7 +321,7 @@ padding-top: 50px;
   }
   .top-services{
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     text-align: center;
     padding: 50px 0;
     justify-content: center;
@@ -328,10 +330,10 @@ padding-top: 50px;
     width: 100%;
   }
   .serviceH{
-    text-align: left;
-    padding-left: 15px;
+    text-align: right;
+    padding-right: 15px;
     position: relative;
-    width: 100%;
+    width: 50%;
   }
   .serviceH .line .small-line{
     height: 100px;
@@ -346,8 +348,8 @@ padding-top: 50px;
     font-size: 2em;
   }
   .serviceD{
-    padding-left: 15px;
-    text-align: left;
+    padding-right: 15px;
+    text-align: right;
   }
   .serviceH p{
     color: #fff;
@@ -377,6 +379,8 @@ padding-top: 50px;
     color: #fff;
     font-family: 'cairo-l';
     font-size: 50px;
+    text-align: right;
+    padding-right: 15px;
   }
   .cardT span {
     color: #fff;
@@ -390,16 +394,18 @@ padding-top: 50px;
    font-weight: 100;
    font-family: 'cairo-l';
    padding-bottom: 30px;
+   text-align: right;
+   padding-right: 15px;
   }
   .cardT .button-solid{
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
 }
 /* Tablet */
 @media only screen and (min-width: 48em) {
  .top-services{
-  flex-direction: row;
+  flex-direction: row-reverse;
  }
  .card{
   display: flex;
@@ -408,9 +414,10 @@ padding-top: 50px;
   align-items: center;
   padding: 40px;
  }
- .cardT p{
-  padding-right: 30px;
+ .cardT{
+  text-align: right;
  }
+ 
  .cardP{
   width: 70%;
  }
@@ -425,7 +432,9 @@ padding-top: 50px;
  .serviceD p{
   font-size: 1.1em;
  }
- 
+ .top-services{
+  align-items: flex-end;
+ }
  
 }
 /* Small Desktop */
@@ -440,7 +449,7 @@ padding-top: 50px;
   
    
    .card{
-    flex-direction: row;
+    flex-direction: row-reverse;
    }
    .cardT{
     width: 50%;
