@@ -59,7 +59,7 @@
     margin: auto;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-direction: column-reverse;
   }
   #hero h1 {
@@ -198,6 +198,9 @@
   }
   .picside img{
     transform: translateX(-213px);
+  }
+  #hero .heroText{
+    align-items: flex-start;
   }
   
   #hero .hero-content {
