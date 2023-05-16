@@ -319,7 +319,7 @@ padding-top: 50px;
     text-align: left;
     padding-left: 15px;
     position: relative;
-    width: 50%;
+    width: 100%;
   }
   .serviceH .line .small-line{
     height: 100px;
@@ -449,7 +449,7 @@ padding-top: 50px;
   width: 100vw;
     transform: translate(-729px, -109px);
 }
-}
+
 .headerText {
   transform: translateX(108px);
 }
@@ -471,7 +471,6 @@ font-size: 2em;
 .cardT{
   font-size: 1.5em;
 }
-
 .cardT .card-header{
   font-size: 3em;
 }
