@@ -349,7 +349,7 @@ padding-top: 50px;
     font-family: 'cairo-l';
     font-weight: 100;
     font-size: 2em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
   }
   .serviceD{
     padding-right: 15px;
@@ -359,6 +359,8 @@ padding-top: 50px;
     color: #fff;
     font-weight: 900;
     font-family: 'cairo-b';
+    padding-bottom: 1em;
+    transform: translateY(-10px);
   }
   
   .serviceD p{
