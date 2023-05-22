@@ -139,7 +139,8 @@
   .vision h2{
     color: #fff;
     font-family: 'cairo-l';
-
+    margin: 0 !important;
+    padding: 0 !important;
     font-size: 2em;
     font-weight: 100;
   }
@@ -269,7 +270,7 @@
     display: none;
   }
   #hero p{
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   .serviceD p{
     font-size: 24px;
@@ -314,7 +315,7 @@
  display: flex;
  justify-content: center;
  align-items: center;
-padding-top: 50px;
+
 
   }
   .top-services{
@@ -344,6 +345,7 @@ padding-top: 50px;
     font-family: 'cairo-l';
     font-weight: 100;
     font-size: 2em;
+    padding-bottom: 20px;
   }
   .serviceD{
     padding-left: 15px;
@@ -417,7 +419,7 @@ padding-top: 50px;
  .cardP img{
   height: 100%;
   width: 100%;
-  max-height: 800px;
+  max-height: 700px;
  }
  .card{
   gap: 10px;
@@ -425,7 +427,9 @@ padding-top: 50px;
  .serviceD p{
   font-size: 1.1em;
  }
- 
+ .serviceH{
+  width: 50%;
+ }
  
 }
 /* Small Desktop */
@@ -441,6 +445,7 @@ padding-top: 50px;
    
    .card{
     flex-direction: row;
+    height: 50vh;
    }
    .cardT{
     width: 50%;
@@ -449,7 +454,7 @@ padding-top: 50px;
 
 @media only screen and (min-width: 1300px){
   .serviceD p{
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
 } 
@@ -501,7 +506,7 @@ font-size: 2em;
 .left-section p{
   font-size: 24pt;
 }
-input:nth-child(1){
+input{
   height: 2vw;
 }
 input.Subject {

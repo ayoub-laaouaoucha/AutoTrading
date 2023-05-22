@@ -84,7 +84,90 @@
     width: 100%;
     object-fit: cover;
   }
+  .policy-popup {
+    POSITION: fixed;
+    Z-INDEX: 999;
+    TOP: 30%;
+    LEFT: 50%;
+    transform: translate(-50%, -100%) scale(.1);
+    background: black;
+    padding: 5%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: collapse;
+    width: 80%;
 }
+.policy-popup-Open{
+  transform: translate(-50%,-50%) scale(1);
+  top: 50%;
+  visibility: visible;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.policy-popup .button-solid{
+  margin-top: 10px;
+}.Sign-popUp{
+  POSITION: fixed;
+  Z-INDEX: 999;
+  TOP: 50%;
+  LEFT: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  background: black;
+  padding: 5%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: collapse;
+  width: 0%;
+  font-family: 'cairo-r';
+}
+.Sign-popUp-Open{
+  visibility: visible;
+  width: 80%;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.closespan{
+  background-color: transparent;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.Sign-popUp span{
+  display: block;
+  position: absolute;
+  width: 4px;
+  background-color: #fff;
+  height: 15px;
+  transform: rotate(-45deg)
+}
+.Sign-popUp span:nth-child(2){
+  transform: rotate(45deg);
+
+}
+.Sign-popUp form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Sign-popUp input{
+  margin: 10px 0;
+  width: 50%;
+}
+.Sign-popUp input::placeholder{
+  text-align: Left;
+}
+.Sign-popUp .button-solid{
+  font-family: 'cairo-b';
+  margin-top: 20px;
+}
+
 /* Inbetween */
 @media only screen and (min-width: 666px) {
   #sidebyside {
@@ -187,6 +270,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding: 15px;
+    width: 100%;
   }
   .left-section .title{
     color: #fff;
@@ -211,7 +295,8 @@
  }
  .top-form{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
  }
@@ -219,26 +304,38 @@
  input{
   background-color:#928EB3 ;
   font-size: 16px;
-  border: none;
-  border-radius: 3px;
-  width: 5em;
+  border: var(--primary) 1px solid;
+  width: 100%;
   margin: 0;
   padding: 5px;
-  
+ }
+ input::placeholder{
+  font-family: 'cairo-l';
+  padding-left: 10px;
  }
  .buttom-form{
   width: 100%;
  }
  textarea{
-  margin-top: 10px;
   background-color: #928EB3;
-  border-radius: 3px;
   height: 30vh;
   width: 100%;
  }
  .form-submit{
   margin: 30px 0;
  }
+ .allcontact .button-solid{
+  margin-right: 100%;
+ }
+ .right-section a{
+  text-decoration: none;
+  color: #fff;
+}
+ .right-section span{
+  color: #fff;
+ }
+
+ 
  }
  /* Inbetween */
  @media only screen and (min-width: 666px) {
@@ -246,19 +343,25 @@
     width: 100%;
     position: relative;
   }
-  input{
-    width: 12em;
+  .top-form{
+    flex-direction: row;
   }
+  .right-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
  }
  /* Small Desktop */
  @media only screen and (min-width: 1000px) {
-  input{
-    width: 17em;
+  .left-section{
+    width: 80%;
   }
  
  }
   @media only screen and (min-width: 1440px){
-    input{
-      width: 25em;
-    }
+   
   }

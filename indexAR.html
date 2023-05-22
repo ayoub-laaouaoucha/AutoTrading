@@ -79,7 +79,7 @@
                     <li><a href="#hero">الرؤية</a></li>
                     <li><a href="#services">الخدمات</a></li>
                     <li><a href="#form">تواصل</a></li>
-                    <li><a class="sign-in" href="#">تسجيل الدخول</a></li>
+                    <li><a class="sign-in" onclick="OpenSignin()">تسجيل الدخول</a></li>
                     <li><a href="index.html">En</a></li>
                 </ul>
             </nav>
@@ -102,7 +102,25 @@
         <!-- ============================================ -->
         <!--                    LANDING                   -->
         <!-- ============================================ -->
-    
+        <div class="policy-popup" id="PolicyPopUp">
+
+            <h1>Privacy Policy</h1>
+            <p>this is the Privacy policy Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi iure earum vel pariatur. Asperiores, quisquam?</p>
+            <button class="button-solid" onclick="ClosePolicyPopUp()">Close</button>
+        </div>
+        <div class="Sign-popUp" id="SignPopUp">
+            <div onclick="CloseSignin()" class="closespan">
+            <span></span>
+            <span></span>
+        </div>
+            
+            <h1>تسجيل الدخول</h1>
+            <form>
+            <input type="Email" name="Email" required placeholder="البريد الألكتروني">
+            <input type="password" name="Password" required placeholder="كلمة المرور">
+            <button class="button-solid">تسجيل الدخول</button>
+        </form>
+        </div>
         <section id="hero">
             <div class="hero-content">
                 <div class="heroText">
@@ -225,25 +243,25 @@
                     
                 <form id="contact" name="Contact Form2" method="post" data-netlify="true">
                     <div class="top-form">
-                        <div class="input-group">
+                        
                             <input id="name" aria-label="name" class="input1" name="name" placeholder="الأسم" type="text" tabindex="1" required dir="rtl">
-                            <div aria-hidden="true" class="hover-box"></div>
+                            <div aria-hidden="true" class="hover-box">
                         </div>
 
-                        <div class="input-group">
+                        
                             <input id="email" aria-label="email" class="input1 right" name="email" placeholder="البريد الألكتروني" type="email" tabindex="2" required dir="rtl">
-                            <div aria-hidden="true" class="hover-box"></div>
+                            <div aria-hidden="true" class="hover-box">
                         </div>
 
-                        <div class="input-group">
+                        
                             <input class="Subject" aria-label="Subject" class="input1" name="Subject" placeholder="الموضوع" type="text" tabindex="3" required dir="rtl">
-                            <div aria-hidden="true" class="hover-box"></div>
+                            <div aria-hidden="true" class="hover-box">
                         </div>
                     </div>
                     <div class="buttom-form">
                     <div class="input-group textarea">
                             
-                        <textarea id="message" aria-label="write your message" name="message" placeholder="اكتب تفاصيل طلبك" tabindex="6" required dir="rtl"></textarea>
+                        <textarea id="message" aria-label="write your message" name="message"  tabindex="6" required dir="rtl"></textarea>
                         <div aria-hidden="true" class="hover-box"></div>
                     </div>
                 <p class="form-submit">
@@ -259,31 +277,51 @@
         </section>
 
        
+    
     </main>
 
     <!-- ============================================ -->
     <!--                     FOOTER                   -->
     <!-- ============================================ -->
+    
 
     <footer id="footer">
         <div class="container">
             <div class="left-section">
                 <a class="logo" href="/index.html"><img loading="lazy" decoding="async" src="/images/AutoTradinglogo.svg" alt="logo" width="264" height="78"></a>
-                <p>Email :info@autotrading.sa</p>
+                <p>Auto Trading is a limited liability company with Commerical Registration No 10932974387 <br> Autherized by the Capitcal Market Authority iwthin the Financial Technology Laboratory</p>
             </div>
-           
+            <div class="right-section">
+                <div class="right-up">
+                    <a href="#">Auto Trading&reg;</a><span> | </span> <a href="#">All rights reserved</a>
+                </div>
+                <div class="right-down">
+                   <a href="mailto:info@autotrading.sa">info@autotrading.sa</a> <span> | </span><a onclick="OpenPolicyPopUp()">Privacy policy</a>
+                </div>
+               </div>
         </div>
-
-        <div class="credit">
-            <span>Designed and Hand Coded by</span>
-            <a href="https://hakami-designs.com" target="_blank" rel="noopener">Hakami_designs.com</a>
-            <span class="copyright"> Copyright 2023 - Present</span></div>
+       
     </footer>
 
 
     <script defer src="/nav.js"></script>
     <script defer src="/dark.js"></script>
-
+    <script>
+    let popup = document.getElementById('PolicyPopUp');
+    let signin = document.getElementById('SignPopUp')
+    function OpenPolicyPopUp(){
+        popup.classList.add('policy-popup-Open')
+    }
+    function ClosePolicyPopUp(){
+        popup.classList.remove('policy-popup-Open')
+    }
+    function OpenSignin(){
+        signin.classList.add('Sign-popUp-Open')
+    }
+    function CloseSignin(){
+        signin.classList.remove('Sign-popUp-Open')
+    }
+    </script>
 
 </body>
 </html>

@@ -234,7 +234,7 @@
     display: flex;
     flex-direction: row-reverse;
     margin-top: 50px;
-    align-items: flex-end;
+    align-items: center;
   }
   #hero .heroText{
     flex-direction: row;
@@ -319,7 +319,6 @@
  display: flex;
  justify-content: center;
  align-items: center;
-padding-top: 50px;
 
   }
   .top-services{
@@ -336,7 +335,7 @@ padding-top: 50px;
     text-align: right;
     padding-right: 15px;
     position: relative;
-    width: 50%;
+    width: 100%;
   }
   .serviceH .line .small-line{
     height: 100px;
@@ -434,7 +433,7 @@ padding-top: 50px;
  .cardP img{
   height: 100%;
   width: 100%;
-  max-height: 800px;
+  max-height: 700px;
  }
  .card{
   gap: 10px;
@@ -442,8 +441,11 @@ padding-top: 50px;
  .serviceD p{
   font-size: 1.1em;
  }
+ .serviceH{
+  width: 50%;
+ }
  .top-services{
-  align-items: flex-end;
+  align-items: center;
  }
  
 }
@@ -456,10 +458,9 @@ padding-top: 50px;
     font-size: 1.5em;
     line-height: 2;
   }
-  
-   
    .card{
     flex-direction: row-reverse;
+    height: 100vh;
    }
    .cardT{
     width: 50%;
@@ -520,7 +521,7 @@ font-size: 2em;
 .left-section p{
   font-size: 24pt;
 }
-input:nth-child(1){
+input{
   height: 2vw;
 }
 input.Subject {
