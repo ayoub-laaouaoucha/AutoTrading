@@ -162,6 +162,7 @@
 }
 .Sign-popUp input::placeholder{
   text-align: Left;
+  font-family: 'cairo-l';
 }
 .Sign-popUp .button-solid{
   font-family: 'cairo-b';
@@ -360,8 +361,4 @@
   .left-section{
     width: 80%;
   }
- 
- }
-  @media only screen and (min-width: 1440px){
-   
-  }
+}

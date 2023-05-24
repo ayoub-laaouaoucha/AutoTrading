@@ -445,7 +445,7 @@
    
    .card{
     flex-direction: row;
-    height: 50vh;
+    height: 100vh;
    }
    .cardT{
     width: 50%;
