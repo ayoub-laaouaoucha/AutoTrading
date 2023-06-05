@@ -442,10 +442,9 @@
     line-height: 2;
   }
   
-   
    .card{
     flex-direction: row;
-    height: 100vh;
+    height: 80vh;
    }
    .cardT{
     width: 50%;

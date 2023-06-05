@@ -460,7 +460,7 @@
   }
    .card{
     flex-direction: row-reverse;
-    height: 100vh;
+    height: 80vh;
    }
    .cardT{
     width: 50%;
