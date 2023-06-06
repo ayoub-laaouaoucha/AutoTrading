@@ -252,7 +252,7 @@
     font-size: 18px;
   }
   .allcontact .line{
-    height: 66%;
+    height: 70%;
     bottom: 0;
   }
   
@@ -264,6 +264,9 @@
   .picside img{
     width: 100vw;
     transform: translateX(-300px);
+  }
+  .headerText{
+    transform: translateX(10px);
   }
   
 }
