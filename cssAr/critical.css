@@ -486,7 +486,7 @@
   transform: translateX(108px);
 }
 #hero h1{
-  font-size: min(12vw, 15vw);
+  font-size: min(12vw, 5vw);
 }
 #hero p, .serviceD p{
   font-size: 1.7em;
