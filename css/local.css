@@ -182,6 +182,9 @@
   #sidebyside {
     padding: 6.25em 0;
   }
+  .Sign-popUp-Open{
+    width: 50%;
+  }
 }
 /* Small Desktop */
 @media only screen and (min-width: 1300px) {
@@ -201,6 +204,9 @@
   #sidebyside .image-box {
     margin: 0;
     margin-right: 10.625em;
+  }
+  .Sign-popUp-Open{
+    width: 30%;
   }
 }
 /*-- -------------------------- -->
@@ -335,6 +341,7 @@
  }
  .allcontact .button-solid{
   margin-right: 100%;
+  padding: 0 1.5em;
  }
  .right-section a{
   text-decoration: none;

@@ -182,7 +182,7 @@
     }
 
     .allcontact .line{
-      height: 30%;
+      height: 40%;
       bottom: 0;
       transform: translateY(-103px);
   }
@@ -265,9 +265,7 @@
     width: 100vw;
     transform: translateX(-300px);
   }
-  .headerText{
-    transform: translateX(10px);
-  }
+  
   
 }
 /* Small Desktop */
@@ -289,8 +287,9 @@
     width: 114vw;
     transform: translateX(-471px);
     max-width: 100vw;
-  
-  
+}
+.allcontact .line{
+  height: 80%;
 }
 }
 @media only screen and (min-width: 1400px){
