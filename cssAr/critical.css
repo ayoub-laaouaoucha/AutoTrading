@@ -398,7 +398,7 @@
   .cardT p{
    color: #fff;
    font-size: 1.2em;
-   letter-spacing: 1.2px;
+   
    font-weight: 100;
    font-family: 'cairo-l';
    padding-bottom: 30px;
@@ -486,7 +486,7 @@
   transform: translateX(108px);
 }
 #hero h1{
-  font-size: min(12vw, 90pt);
+  font-size: min(12vw, 15vw);
 }
 #hero p, .serviceD p{
   font-size: 1.7em;
@@ -504,7 +504,7 @@ font-size: 2em;
   font-size: 1.5em;
 }
 .cardT .card-header{
-  font-size: 3em;
+  font-size: 2.5em;
 }
 .cardP{
    width:50%;

@@ -126,6 +126,10 @@
   }
   .button-solid:hover {
     color: #fff;
+    border-top: #414141 2px solid;
+    border-left: #414141 2px solid;
+    border-right: #000 1px solid;
+    border-bottom: #000 1px solid;
   }
   .button-solid:hover:before {
     width: 100%;

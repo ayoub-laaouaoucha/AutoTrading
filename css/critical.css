@@ -103,15 +103,17 @@
   .heroText .headerText .headerTitle{
     font-family: 'cairo-b';
   }
+  .headersub{
+    text-align: left;
+    font-size: 100%;
+  }
   #hero .p1{
     font-family: 'cairo-b';
     font-size: 20px;
   }
   .vision{
     position: relative;
-
     text-align: left;
-  
   }
   .vision-content{
     padding-left: 15px;
@@ -230,7 +232,7 @@
     display: flex;
     flex-direction: row;
     margin-top: 50px;
-    align-items: flex-start;
+    align-items: center;
   }
   #hero .heroText{
     flex-direction: row;
@@ -476,7 +478,7 @@
   font-size: 1.7em;
 }
 #hero .p1{
-font-size: 1.5em;
+font-size: 1.7em;
 }
 .vision h3, .serviceH p{
 font-size: 2em;
@@ -494,13 +496,13 @@ font-size: 2em;
    width:50%;
 }
 .contactus h2{
-  font-size: 48pt;
+  font-size: 2em;
 }
 .contactus p{
-  font-size: 40pt;
+  font-size: 2em;
 }
 .left-section .title {
-  font-size: 48pt;
+  font-size: 2.2em;
 }
 .left-section p{
   font-size: 24pt;
@@ -515,7 +517,7 @@ input:nth-child(3){
   width: 40vw;
 }
 input::placeholder, textarea::placeholder{
-  font-size: 24pt;
+  font-size: 1.5em;
 }
 .why{
   padding: 50px 0;
