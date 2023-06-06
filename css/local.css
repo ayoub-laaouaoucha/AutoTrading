@@ -254,6 +254,7 @@
 @media only screen and (min-width: 0em) {
   .allcontant{
   position: relative;
+  font-family: 'cairo-l';
  }
  
   .contactus{
@@ -294,6 +295,7 @@
   .left-section p{
     color: #fff;
     margin-bottom: 30px;
+    font-family: 'cairo-r';
   }
   form{
     width: 97%;

@@ -303,12 +303,14 @@
     color: #fff;
     margin-bottom: 30px;
     text-align: right;
+    font-family: 'cairo-r';
   }
   form{
     width: 97%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'cairo-l';
   }
  #contact{
  display: flex;
