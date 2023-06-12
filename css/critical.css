@@ -478,7 +478,8 @@
 @media only screen and (min-width: 1920px){
 .picside img{
   width: 100vw;
-  transform: translate(-62px, -179px);
+ 
+  transform: translate(-167px, -335px);
 }
 
 .headerText {
