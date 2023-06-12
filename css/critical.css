@@ -403,7 +403,7 @@
   }
 
   .why-image{
-   width: 87vw;
+   width: 87vw !important;
   }
 
 }

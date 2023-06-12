@@ -400,7 +400,7 @@
   .cardT p{
    color: #fff;
    font-size: 1.2em;
-   
+
    font-weight: 100;
    font-family: 'cairo-l';
    padding-bottom: 30px;
@@ -412,7 +412,7 @@
     margin-right: 15px;
   }
   .why-image{
-    width: 87vw;
+    width: 87vw !important;
    }
  
 
