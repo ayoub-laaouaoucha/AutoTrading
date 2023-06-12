@@ -382,3 +382,73 @@
   @media only screen and (min-width: 1440px){
    
   }
+
+
+  /*------------------------------- */
+/* ------------hero-------------- */
+/*------------------------------- */
+@media only screen and (min-width: 1920px){
+  .picside img{
+    width: 100vw;
+    transform: translate(-365px, -335px);
+  }
+  
+  .headerText {
+    transform: translateX(108px);
+  }
+  #hero h1{
+    font-size: min(12vw, 5vw);
+  }
+  #hero p, .serviceD p{
+    font-size: 1.7em;
+  }
+  #hero .p1{
+  font-size: 1.5em;
+  }
+  .vision h3, .serviceH p{
+  font-size: 2em;
+  }
+  .card{
+    padding-top: 50px;
+  }
+  .cardT{
+    font-size: 1.5em;
+  }
+  .cardT .card-header{
+    font-size: 2.5em;
+  }
+  .cardP{
+     width:50%;
+  }
+  .contactus h2{
+    font-size: 2em;
+  }
+  .contactus p{
+    font-size: 2em;
+  }
+  .left-section .title {
+    font-size: 2.2em;
+  }
+  .left-section p{
+    font-size: 24pt;
+  }
+  input{
+    height: 2vw;
+  }
+  input.Subject {
+    width: 50em;
+  }
+  input:nth-child(3){
+    width: 40vw;
+  }
+  input::placeholder, textarea::placeholder{
+    font-size: 1.5em;
+  }
+  .why{
+    padding: 50px 0;
+  }
+  .why-image{
+    transform: translate(170px,10px);
+   }
+  
+  }
