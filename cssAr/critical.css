@@ -157,7 +157,6 @@
   .Headerbuttom{
     display: flex;
     gap: 30px;
-    margin-top: 50px;
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
@@ -233,7 +232,6 @@
   .Headerbuttom{
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 50px;
     align-items: center;
   }
   #hero .heroText{
